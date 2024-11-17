@@ -10,13 +10,19 @@ tests ran:
 1. e2e
   - registration
   - login
-  - user information 
-  - add to cart
-  - browse categories
+  - purchase 1 item
+  - purchase multiple items
+  - search for item
 3. integration
-  - email registration
-  - user information retrieval
-  - payment information retrieval
-4. api
+  - retrieve user information
   - retrieve market items
-  - us
+  - retrieve user payment details
+  - retrieve active discounts 
+4. api
+  - GET user auth token
+  - GET market items
+  - POST add to cart
+  - GET valid payment
+  - POST payment
+  - UPDATE cart
+  - GET tracking information
