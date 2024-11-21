@@ -62,4 +62,8 @@ summary:
      add any 2 items to cart
      actual behaviour: only the last added item shows in cart page (/cart)
      expected behaviour: all added items show in cart page (/cart)
-   **comments:** api endpoint returns all items  
+   **comments:** api endpoint returns all items
+  
+- retrieving active discounts returns object malformed object
+  **service**: backend@1.0.1
+  
